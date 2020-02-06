@@ -1,0 +1,47 @@
+
+{
+  "login":
+  {
+    "locatorType": "xpath",
+    "locatorValue": "//*[@id='email']",
+    
+    "userName": ["id","//*[@id='email']"],
+    "passWord": ["id","//*[@id='password']"],
+    "loginButton": ["xpath","//button[text()='Login']"],
+    "livbimLogo":["xpath","//*[@ng-click='goToSchedulePage()']"]
+  },
+
+  "searchPag":
+  {
+    "googleLogo": ["xpath","//*[@alt='Google']"],
+    "searchInput": ["name","q"],
+    "searchButton": ["xpath","//*[@aria-label='Google Search']"],
+    "result": ["xpath","//div[@class='r']/a/h3"]
+  },
+
+  "requestForApproval":
+{
+
+  "clickRFA":["xpath","//*[@id='main']/div[1]//li[13]/a[contains(text(),'RFA')]"],
+  "moveToFrame":["id","//*[@id='iFrameId']"],
+  "clickNewButton":["xpath","//*[@id='new']//button"],
+  "categoryInput":["xpath","//*[@id='category']"],
+  "selectCategory":["xpath","(//*[@type='checkbox']/following::span)[1]"],
+  "clickDoneButton":["xpath","//*[contains(text(),'Done')]"],
+  "severityDropdown":["xpath","//*[@id='new']/div[2]//nb-select/button"],
+  "dueDate":["xpath","//*[@id='date']"],
+  "locationInput":["xpath","//*[@id='location']"],
+  "descriptionInput":["xpath","//*[@id='description']"],
+  "rfaLabel":["xpath","(//*[@id='new']//label)[6]"],
+  "label1":["xpath","(//*[@id='new']//label)[6]/following-sibling::div[1]"],
+  "label2":["xpath","(//*[@id='new']//label)[6]/following-sibling::div[2]"],
+  "addRoleplusButton":["xpath","//*[@id='new']//div[2]/div/nb-icon"],
+  "attachImageButton":["xpath","(//*[@id='new']//div[2]//nb-icon)[2]"],
+  "clickConfirmButton":["xpath","//button[contains(text(),'Confirm')]"],
+  "clickSubmitButton":["xpath","//button[contains(text(),'Submit')]"],
+  "rfaSuccessMessage":["xpath","//*[contains(text(),'RFA Raised')]"]
+
+}
+
+
+}

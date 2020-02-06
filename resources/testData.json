@@ -1,0 +1,18 @@
+{
+  "environment": {
+    "baseUrl": "https://qa4.livbim.io/"
+  },
+  "username": {
+    "username1":"livbim2019@gmail.com"
+  },
+  "password": {
+    "password":"password"
+  },
+  "roles": {
+    "siteEngineer":"Site Engineer"
+  },
+  "users":{
+    "user1":"Ross"
+  }
+
+}
